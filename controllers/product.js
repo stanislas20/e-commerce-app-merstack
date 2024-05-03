@@ -1,6 +1,6 @@
 import { asyncError } from "../middlewares/error.js";
 import { Product } from "../models/product.js";
-import { Category } from "../models/Category.js";
+import { Category } from "../models/category.js";
 import ErrorHandler from "../utils/ErrorHandler.js";
 import { getDataUri } from "../utils/features.js";
 import cloudinary from "cloudinary"
